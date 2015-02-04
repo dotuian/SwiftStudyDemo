@@ -35,6 +35,7 @@ class UserInfoCell : UITableViewCell {
         emailLabel.font = UIFont.systemFontOfSize(12)
         contentView.addSubview(emailLabel)
         
+        NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "autoupdate", userInfo: nil, repeats: true)
     }
 
     required init(coder aDecoder: NSCoder) {
@@ -50,10 +51,13 @@ class UserInfoCell : UITableViewCell {
     }
     
     
+    func autoupdate(){
+        println(" autoupdate ")
+        var format = NSDateFormatter()
+        format.dateFormat = "yyyy-MM-dd hh:mm:ss"
+        phoneLabel.text = format.stringFromDate(NSDate())
     
-    
-    
-    
+    }
     
 
 }
