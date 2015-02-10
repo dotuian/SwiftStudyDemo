@@ -31,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		477079FB1A836AAA0070C21F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		477079FC1A836AAA0070C21F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		477E75D81A80B9350003F6BD /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		477E75DC1A80B9350003F6BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		477E75DD1A80B9350003F6BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				477E75E51A80B9350003F6BD /* Base */,
+				477079FB1A836AAA0070C21F /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				477E75EA1A80B9350003F6BD /* Base */,
+				477079FC1A836AAA0070C21F /* zh-Hans */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -425,6 +429,7 @@
 				477E75FC1A80B9350003F6BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		477E75FD1A80B9350003F6BD /* Build configuration list for PBXNativeTarget "TableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +438,7 @@
 				477E75FF1A80B9350003F6BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

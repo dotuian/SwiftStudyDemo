@@ -85,6 +85,13 @@ class OneViewController : UIViewController , UITableViewDelegate, UITableViewDat
         println(indexPath.row);
     }
     
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        
+        NSLog("delete")
+        var index = indexPath.row as Int
+        self.memos.removeAtIndex(index)
+        self.table.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Top)    }
+    
 
 
 }

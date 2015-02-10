@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  countdown
+
+  Created by 鐘紀偉 on 15/2/5.
+  Copyright (c) 2015年 鐘紀偉. All rights reserved.
+*/
+
+
+VIEW_NAME_TABITEM_ROOT="倒计时";
+VIEW_NAME_TABITEM_SETTING="设置";
+
+
+VIEW_ROOT_TITLE = "倒计时";
+VIEW_CREATE_TITLE = "创建";
+VIEW_SETTING_TITLE = "设置";
